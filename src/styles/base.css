@@ -1,0 +1,16 @@
+:root {
+    --background-bege: #FCEEE5;
+    --black: #404040;
+    --white: #fff;
+    --brown: #4E200C;
+    --orange: #FF9848;
+    --dark-orange: #E65900;
+    --text-orange: #FF6300;
+    --gray: #D9D9D9;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    overflow-y: auto;
+  }

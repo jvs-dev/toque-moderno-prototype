@@ -1,0 +1,12 @@
+.main__button--elipsis {
+    background-color: var(--gray);
+    border: 0px;
+    width: 12px;
+    height: 12px;
+    padding: 0px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.main__button--elipsis.active {
+    background-color: var(--brown);
+}

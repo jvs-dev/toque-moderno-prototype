@@ -1,0 +1,24 @@
+.main__button {
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.main__button.button--fill {
+    background-color: var(--brown);
+    color: var(--white);
+    margin-bottom: 8px;
+}
+.main__button.button--border {
+    border: solid 2px var(--brown);
+    color: var(--brown);
+}

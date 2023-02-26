@@ -1,0 +1,34 @@
+#main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 24px;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#main__img {
+    height: 240px;
+    border-radius: 100%;
+    transition: 0.5s;
+}
+.main__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.main__p {
+    text-align: center;
+    color: var(--black);
+    font-weight: 500;
+    font-size: 4.8vw;
+    margin: 0px 30px;
+    transition: 0.5s;
+}
+.main__p.p1 {
+    margin-bottom: 8px;
+    font-size: 5.5vw;
+}
